@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.539
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentimentAnalysis", "SentimentAnalysis\SentimentAnalysis.csproj", "{5C9A0F2E-8C41-48FB-9405-D5257DA12588}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentAnalysis", "SentimentAnalysis\SentimentAnalysis.csproj", "{5C9A0F2E-8C41-48FB-9405-D5257DA12588}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroTutorial", "MicroTutorial", "{62F41A17-5C57-4FA5-985A-FCEF27FCDF10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MyTest", "MyTest", "{EFF9FADC-01D6-4B62-966F-019E29F7F468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberSebtimentAnalysis", "NumberSebtimentAnalysis\NumberSebtimentAnalysis.csproj", "{0D83200A-A014-4C72-A6A3-720778842680}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumberSebtimentAnalysis", "NumberSebtimentAnalysis\NumberSebtimentAnalysis.csproj", "{0D83200A-A014-4C72-A6A3-720778842680}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "二元分类", "二元分类", "{B1A48EBE-A9E5-408C-8B18-18EE35F374E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "二元分类", "二元分类", "{7458510E-1076-46BC-86C8-C747E44FE5D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,8 +34,10 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5C9A0F2E-8C41-48FB-9405-D5257DA12588} = {62F41A17-5C57-4FA5-985A-FCEF27FCDF10}
-		{0D83200A-A014-4C72-A6A3-720778842680} = {EFF9FADC-01D6-4B62-966F-019E29F7F468}
+		{5C9A0F2E-8C41-48FB-9405-D5257DA12588} = {B1A48EBE-A9E5-408C-8B18-18EE35F374E9}
+		{0D83200A-A014-4C72-A6A3-720778842680} = {7458510E-1076-46BC-86C8-C747E44FE5D2}
+		{B1A48EBE-A9E5-408C-8B18-18EE35F374E9} = {62F41A17-5C57-4FA5-985A-FCEF27FCDF10}
+		{7458510E-1076-46BC-86C8-C747E44FE5D2} = {EFF9FADC-01D6-4B62-966F-019E29F7F468}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {08EC8748-FD99-4048-8A58-4C1655EC2171}
